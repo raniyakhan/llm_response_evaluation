@@ -1,2 +1,4 @@
 # lynxius_task
-Raniya Khan - Lynxes Technical Task
+Raniya Khan - Lynxius Technical Task
+
+
