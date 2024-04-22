@@ -32,8 +32,8 @@ def generate_answer(question):
 
     return first_sentence.strip()
 
-def calculate_score(llm_answer, ground_truth):
-    return 1 if llm_answer.strip().lower() == ground_truth.strip().lower() else 0
+def dummy_score(llm_answer, ground_truth):
+    return 0
 
 # CSV file paths
 input_file_path = 'TruthfulQA.csv'  # Your input CSV file
@@ -56,7 +56,7 @@ with open(input_file_path, mode='r', newline='', encoding='utf-8') as file:
             ground_truth = row['Best Answer']
             other_correct_answers = row.get('Correct Answers', '')
             llm_answer = generate_answer(question)
-            score = calculate_score(llm_answer, ground_truth)
+            score = dummy_score(llm_answer, ground_truth)
             
             # Create a dictionary for the current row and write it to the CSV
             output_row = {
