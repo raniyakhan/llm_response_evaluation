@@ -28,7 +28,7 @@ Script to generate LLM responses for the dataset.
 
 ### future_iterations/
 
-Proposes new methods for evaluating LLM responses using more advanced (and costly) APIs such as GPT-4 and some Langchain libraries.
+Contains code for how I would've liked to evaluate the LLM responses, if I had access to more advanced (and costly) APIs such as GPT-4.
 
 --------------------
 
