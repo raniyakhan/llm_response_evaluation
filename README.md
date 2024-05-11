@@ -1,4 +1,4 @@
-# Raniya Khan - Lynxius Technical Task
+# LLM Response Evaluation Task
 
 ## Overview
 
